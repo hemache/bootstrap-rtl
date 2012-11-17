@@ -160,11 +160,12 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: Tahoma, sans-serif;
+  font-size: 13px;
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
+  direction: rtl;
 }
 
 a {
@@ -590,7 +591,7 @@ p {
 
 .lead {
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 19.5px;
   font-weight: 200;
   line-height: 30px;
 }
@@ -655,7 +656,7 @@ h5,
 h6 {
   margin: 10px 0;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 20px;
   color: inherit;
   text-rendering: optimizelegibility;
@@ -679,43 +680,43 @@ h3 {
 }
 
 h1 {
-  font-size: 38.5px;
+  font-size: 35.75px;
 }
 
 h2 {
-  font-size: 31.5px;
+  font-size: 29.25px;
 }
 
 h3 {
-  font-size: 24.5px;
+  font-size: 22.75px;
 }
 
 h4 {
-  font-size: 17.5px;
+  font-size: 16.25px;
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 h6 {
-  font-size: 11.9px;
+  font-size: 11.049999999999999px;
 }
 
 h1 small {
-  font-size: 24.5px;
+  font-size: 22.75px;
 }
 
 h2 small {
-  font-size: 17.5px;
+  font-size: 16.25px;
 }
 
 h3 small {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 h4 small {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .page-header {
@@ -727,7 +728,7 @@ h4 small {
 ul,
 ol {
   padding: 0;
-  margin: 0 0 10px 25px;
+  margin: 10px 25px 0 0;
 }
 
 ul ul,
@@ -743,7 +744,7 @@ li {
 
 ul.unstyled,
 ol.unstyled {
-  margin-left: 0;
+  margin-right: 0;
   list-style: none;
 }
 
@@ -780,17 +781,17 @@ dd {
 }
 
 .dl-horizontal dt {
-  float: left;
+  float: right;
   width: 160px;
   overflow: hidden;
-  clear: left;
-  text-align: right;
+  clear: right;
+  text-align: left;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .dl-horizontal dd {
-  margin-left: 180px;
+  margin-right: 180px;
 }
 
 hr {
@@ -812,9 +813,9 @@ abbr.initialism {
 }
 
 blockquote {
-  padding: 0 0 0 15px;
-  margin: 0 0 20px;
-  border-left: 5px solid #eeeeee;
+  padding: 0 15px 0 0;
+  margin: 20px 0 0;
+  border-right: 5px solid #eeeeee;
 }
 
 blockquote p {
@@ -834,24 +835,24 @@ blockquote small:before {
   content: '\2014 \00A0';
 }
 
-blockquote.pull-right {
-  float: right;
-  padding-right: 15px;
-  padding-left: 0;
-  border-right: 5px solid #eeeeee;
-  border-left: 0;
+blockquote.pull-left {
+  float: left;
+  padding-right: 0;
+  padding-left: 15px;
+  border-right: 0;
+  border-left: 5px solid #eeeeee;
 }
 
-blockquote.pull-right p,
-blockquote.pull-right small {
-  text-align: right;
+blockquote.pull-left p,
+blockquote.pull-left small {
+  text-align: left;
 }
 
-blockquote.pull-right small:before {
+blockquote.pull-left small:before {
   content: '';
 }
 
-blockquote.pull-right small:after {
+blockquote.pull-left small:after {
   content: '\00A0 \2014';
 }
 
@@ -873,11 +874,12 @@ code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 12px;
+  font-size: 11px;
   color: #333333;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
+  direction: ltr;
 }
 
 code {
@@ -891,7 +893,7 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 20px;
   word-break: break-all;
   word-wrap: break-word;
@@ -936,7 +938,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 19.5px;
   line-height: 40px;
   color: #333333;
   border: 0;
@@ -953,7 +955,7 @@ input,
 button,
 select,
 textarea {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 20px;
 }
@@ -962,7 +964,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Tahoma, sans-serif;
 }
 
 label {
@@ -991,7 +993,7 @@ input[type="color"],
   height: 20px;
   padding: 4px 6px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   color: #555555;
   vertical-align: middle;
@@ -1577,7 +1579,7 @@ select:focus:required:invalid:focus {
 .input-prepend .uneditable-input,
 .input-append .dropdown-menu,
 .input-prepend .dropdown-menu {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .input-append input,
@@ -1611,7 +1613,7 @@ select:focus:required:invalid:focus {
   height: 20px;
   min-width: 16px;
   padding: 4px 5px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 20px;
   text-align: center;
@@ -3049,7 +3051,7 @@ button.close {
   padding: 4px 12px;
   margin-bottom: 0;
   *margin-left: .3em;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   *line-height: 20px;
   color: #333333;
@@ -3145,7 +3147,7 @@ button.close {
 
 .btn-large {
   padding: 11px 19px;
-  font-size: 17.5px;
+  font-size: 16.25px;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
@@ -3158,7 +3160,7 @@ button.close {
 
 .btn-small {
   padding: 2px 10px;
-  font-size: 11.9px;
+  font-size: 11.049999999999999px;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -3171,7 +3173,7 @@ button.close {
 
 .btn-mini {
   padding: 1px 6px;
-  font-size: 10.5px;
+  font-size: 9.75px;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -3507,7 +3509,7 @@ input[type="submit"].btn.btn-mini {
 
 .btn-group > .btn,
 .btn-group > .dropdown-menu {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .btn-group > .btn-mini {
@@ -4318,7 +4320,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Tahoma, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4835,7 +4837,7 @@ input[type="submit"].btn.btn-mini {
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
-  font-size: 17.5px;
+  font-size: 16.25px;
 }
 
 .pagination-large ul > li:first-child > a,
@@ -4885,13 +4887,13 @@ input[type="submit"].btn.btn-mini {
 .pagination-small ul > li > a,
 .pagination-small ul > li > span {
   padding: 2px 10px;
-  font-size: 11.9px;
+  font-size: 11.049999999999999px;
 }
 
 .pagination-mini ul > li > a,
 .pagination-mini ul > li > span {
   padding: 1px 6px;
-  font-size: 10.5px;
+  font-size: 9.75px;
 }
 
 .pager {
@@ -5392,7 +5394,7 @@ a.thumbnail:hover {
 .badge {
   display: inline-block;
   padding: 2px 4px;
-  font-size: 11.844px;
+  font-size: 10.998px;
   font-weight: bold;
   line-height: 14px;
   color: #ffffff;
