@@ -4903,7 +4903,7 @@ a.badge:hover {
 .carousel-control {
   position: absolute;
   top: 40%;
-  left: 15px;
+  right: 15px;
   width: 40px;
   height: 40px;
   margin-top: -20px;
@@ -4921,8 +4921,8 @@ a.badge:hover {
   filter: alpha(opacity=50);
 }
 .carousel-control.right {
-  left: auto;
-  right: 15px;
+  right: auto;
+  left: 15px;
 }
 .carousel-control:hover {
   color: #ffffff;
