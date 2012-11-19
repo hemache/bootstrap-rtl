@@ -4165,11 +4165,11 @@ input[type="submit"].btn.btn-mini {
 }
 .pager .next > a,
 .pager .next > span {
-  float: right;
+  float: left;
 }
 .pager .previous > a,
 .pager .previous > span {
-  float: left;
+  float: right;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
