@@ -2273,15 +2273,15 @@ table th[class*="span"],
 }
 .dropdown .caret {
   margin-top: 8px;
-  margin-left: 2px;
+  margin-right: 2px;
 }
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  right: 0;
   z-index: 1000;
   display: none;
-  float: left;
+  float: right;
   min-width: 160px;
   padding: 5px 0;
   margin: 2px 0 0;
@@ -2301,9 +2301,9 @@ table th[class*="span"],
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-.dropdown-menu.pull-right {
-  right: 0;
-  left: auto;
+.dropdown-menu.pull-left {
+  left: 0;
+  right: auto;
 }
 .dropdown-menu .divider {
   *width: 100%;
@@ -2388,12 +2388,12 @@ table th[class*="span"],
 }
 .dropdown-submenu > .dropdown-menu {
   top: 0;
-  left: 100%;
+  right: 100%;
   margin-top: -6px;
-  margin-left: -1px;
-  -webkit-border-radius: 0 6px 6px 6px;
-  -moz-border-radius: 0 6px 6px 6px;
-  border-radius: 0 6px 6px 6px;
+  margin-right: -1px;
+  -webkit-border-radius: 6px 0px 6px 6px;
+  -moz-border-radius: 6px 0px 6px 6px;
+  border-radius: 6px 0px 6px 6px;
 }
 .dropdown-submenu:hover > .dropdown-menu {
   display: block;
@@ -2403,35 +2403,35 @@ table th[class*="span"],
   bottom: 0;
   margin-top: 0;
   margin-bottom: -2px;
-  -webkit-border-radius: 5px 5px 5px 0;
-  -moz-border-radius: 5px 5px 5px 0;
-  border-radius: 5px 5px 5px 0;
+  -webkit-border-radius: 5px 5px 0px 5px;
+  -moz-border-radius: 5px 5px 0px 5px;
+  border-radius: 5px 5px 0px 5px;
 }
 .dropdown-submenu > a:after {
   display: block;
   content: " ";
-  float: right;
+  float: left;
   width: 0;
   height: 0;
   border-color: transparent;
   border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
+  border-width: 5px 5px 5px 5px;
+  border-right-color: #cccccc;
   margin-top: 5px;
-  margin-right: -10px;
+  margin-left: -10px;
 }
 .dropdown-submenu:hover > a:after {
-  border-left-color: #ffffff;
+  border-right-color: #ffffff;
 }
-.dropdown-submenu.pull-left {
+.dropdown-submenu.pull-right {
   float: none;
 }
-.dropdown-submenu.pull-left > .dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  -webkit-border-radius: 6px 0 6px 6px;
-  -moz-border-radius: 6px 0 6px 6px;
-  border-radius: 6px 0 6px 6px;
+.dropdown-submenu.pull-right > .dropdown-menu {
+  right: -100%;
+  margin-right: 10px;
+  -webkit-border-radius: 0px 6px 6px 6px;
+  -moz-border-radius: 0px 6px 6px 6px;
+  border-radius: 0px 6px 6px 6px;
 }
 .dropdown .dropdown-menu .nav-header {
   padding-left: 20px;
