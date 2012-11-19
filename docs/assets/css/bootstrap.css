@@ -1154,13 +1154,13 @@ textarea::-webkit-input-placeholder {
 .radio,
 .checkbox {
   min-height: 20px;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .radio input[type="radio"],
 .checkbox input[type="checkbox"] {
-  float: left;
-  margin-left: -20px;
+  float: right;
+  margin-right: -20px;
 }
 
 .controls > .radio:first-child,
@@ -1178,7 +1178,7 @@ textarea::-webkit-input-placeholder {
 
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .input-mini {
@@ -1214,7 +1214,7 @@ textarea[class*="span"],
 .row-fluid textarea[class*="span"],
 .row-fluid .uneditable-input[class*="span"] {
   float: none;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .input-append input[class*="span"],
@@ -1329,7 +1329,7 @@ textarea.span1,
 
 .controls-row [class*="span"],
 .row-fluid .controls-row [class*="span"] {
-  float: left;
+  float: right;
 }
 
 .controls-row .checkbox[class*="span"],
@@ -1559,7 +1559,7 @@ select:focus:required:invalid:focus {
 .help-inline {
   display: inline-block;
   *display: inline;
-  padding-left: 5px;
+  padding-right: 5px;
   vertical-align: middle;
   *zoom: 1;
 }
@@ -1592,9 +1592,9 @@ select:focus:required:invalid:focus {
   margin-bottom: 0;
   *margin-left: 0;
   vertical-align: top;
-  -webkit-border-radius: 0 4px 4px 0;
-     -moz-border-radius: 0 4px 4px 0;
-          border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
 }
 
 .input-append input:focus,
@@ -1640,14 +1640,14 @@ select:focus:required:invalid:focus {
 
 .input-prepend .add-on,
 .input-prepend .btn {
-  margin-right: -1px;
+  margin-left: -1px;
 }
 
 .input-prepend .add-on:first-child,
 .input-prepend .btn:first-child {
-  -webkit-border-radius: 4px 0 0 4px;
-     -moz-border-radius: 4px 0 0 4px;
-          border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 0 4px 4px 0;
+     -moz-border-radius: 0 4px 4px 0;
+          border-radius: 0 4px 4px 0;
 }
 
 .input-append input,
@@ -1669,7 +1669,7 @@ select:focus:required:invalid:focus {
 .input-append .add-on,
 .input-append .btn,
 .input-append .btn-group {
-  margin-left: -1px;
+  margin-right: -1px;
 }
 
 .input-append .add-on:last-child,
@@ -1690,29 +1690,29 @@ select:focus:required:invalid:focus {
 .input-prepend.input-append input + .btn-group .btn,
 .input-prepend.input-append select + .btn-group .btn,
 .input-prepend.input-append .uneditable-input + .btn-group .btn {
-  -webkit-border-radius: 0 4px 4px 0;
-     -moz-border-radius: 0 4px 4px 0;
-          border-radius: 0 4px 4px 0;
-}
-
-.input-prepend.input-append .add-on:first-child,
-.input-prepend.input-append .btn:first-child {
-  margin-right: -1px;
   -webkit-border-radius: 4px 0 0 4px;
      -moz-border-radius: 4px 0 0 4px;
           border-radius: 4px 0 0 4px;
 }
 
-.input-prepend.input-append .add-on:last-child,
-.input-prepend.input-append .btn:last-child {
+.input-prepend.input-append .add-on:first-child,
+.input-prepend.input-append .btn:first-child {
   margin-left: -1px;
   -webkit-border-radius: 0 4px 4px 0;
      -moz-border-radius: 0 4px 4px 0;
           border-radius: 0 4px 4px 0;
 }
 
+.input-prepend.input-append .add-on:last-child,
+.input-prepend.input-append .btn:last-child {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
 .input-prepend.input-append .btn-group:first-child {
-  margin-left: 0;
+  margin-right: 0;
 }
 
 input.search-query {
@@ -1738,27 +1738,27 @@ input.search-query {
 }
 
 .form-search .input-append .search-query {
-  -webkit-border-radius: 14px 0 0 14px;
-     -moz-border-radius: 14px 0 0 14px;
-          border-radius: 14px 0 0 14px;
+  -webkit-border-radius: 0 14px 14px 0;
+     -moz-border-radius: 0 14px 14px 0;
+          border-radius: 0 14px 14px 0;
 }
 
 .form-search .input-append .btn {
-  -webkit-border-radius: 0 14px 14px 0;
-     -moz-border-radius: 0 14px 14px 0;
-          border-radius: 0 14px 14px 0;
-}
-
-.form-search .input-prepend .search-query {
-  -webkit-border-radius: 0 14px 14px 0;
-     -moz-border-radius: 0 14px 14px 0;
-          border-radius: 0 14px 14px 0;
-}
-
-.form-search .input-prepend .btn {
   -webkit-border-radius: 14px 0 0 14px;
      -moz-border-radius: 14px 0 0 14px;
           border-radius: 14px 0 0 14px;
+}
+
+.form-search .input-prepend .search-query {
+  -webkit-border-radius: 14px 0 0 14px;
+     -moz-border-radius: 14px 0 0 14px;
+          border-radius: 14px 0 0 14px;
+}
+
+.form-search .input-prepend .btn {
+  -webkit-border-radius: 0 14px 14px 0;
+     -moz-border-radius: 0 14px 14px 0;
+          border-radius: 0 14px 14px 0;
 }
 
 .form-search input,
@@ -1813,7 +1813,7 @@ input.search-query {
 .form-search .checkbox,
 .form-inline .radio,
 .form-inline .checkbox {
-  padding-left: 0;
+  padding-right: 0;
   margin-bottom: 0;
   vertical-align: middle;
 }
@@ -1822,9 +1822,9 @@ input.search-query {
 .form-search .checkbox input[type="checkbox"],
 .form-inline .radio input[type="radio"],
 .form-inline .checkbox input[type="checkbox"] {
-  float: left;
-  margin-right: 3px;
-  margin-left: 0;
+  float: right;
+  margin-right: 0;
+  margin-left: 3px;
 }
 
 .control-group {
@@ -1853,21 +1853,21 @@ legend + .control-group {
 }
 
 .form-horizontal .control-label {
-  float: left;
+  float: right;
   width: 160px;
   padding-top: 5px;
-  text-align: right;
+  text-align: left;
 }
 
 .form-horizontal .controls {
   *display: inline-block;
-  *padding-left: 20px;
-  margin-left: 180px;
-  *margin-left: 0;
+  *padding-right: 20px;
+  margin-right: 180px;
+  *margin-right: 0;
 }
 
 .form-horizontal .controls:first-child {
-  *padding-left: 180px;
+  *padding-right: 180px;
 }
 
 .form-horizontal .help-block {
@@ -1881,7 +1881,7 @@ legend + .control-group {
 }
 
 .form-horizontal .form-actions {
-  padding-left: 180px;
+  padding-right: 180px;
 }
 
 table {
