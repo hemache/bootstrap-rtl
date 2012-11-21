@@ -217,7 +217,7 @@ a:hover {
 }
 
 [class*="span"] {
-  float: left;
+  float: right;
   min-height: 1px;
   margin-left: 20px;
 }
@@ -346,6 +346,13 @@ a:hover {
   float: left;
   width: 100%;
   min-height: 30px;
+<<<<<<< HEAD
+=======
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: right;
+>>>>>>> a5ca4b176403da26f88839f23e06eb8f513dec6b
   margin-left: 2.127659574468085%;
   *margin-left: 2.074468085106383%;
   -webkit-box-sizing: border-box;
