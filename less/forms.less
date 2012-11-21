@@ -489,9 +489,9 @@ select:focus:required:invalid {
   input,
   select,
   .uneditable-input {
-    .border-radius(@inputBorderRadius 0 0 @inputBorderRadius);
+    .border-radius(0 @inputBorderRadius @inputBorderRadius 0);
     + .btn-group .btn {
-      .border-radius(0 @inputBorderRadius @inputBorderRadius 0);
+      .border-radius(@inputBorderRadius 0 0 @inputBorderRadius);
     }
   }
   .add-on,
@@ -501,7 +501,7 @@ select:focus:required:invalid {
   }
   .add-on:last-child,
   .btn:last-child {
-    .border-radius(0 @inputBorderRadius @inputBorderRadius 0);
+    .border-radius(@inputBorderRadius 0 0 @inputBorderRadius);
   }
 }
 

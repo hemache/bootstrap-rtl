@@ -201,7 +201,7 @@ a:hover {
 }
 
 .row {
-  margin-left: -20px;
+  margin-right: -20px;
   *zoom: 1;
 }
 
@@ -219,7 +219,7 @@ a:hover {
 [class*="span"] {
   float: right;
   min-height: 1px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .container,
@@ -278,51 +278,51 @@ a:hover {
 }
 
 .offset12 {
-  margin-left: 980px;
+  margin-right: 980px;
 }
 
 .offset11 {
-  margin-left: 900px;
+  margin-right: 900px;
 }
 
 .offset10 {
-  margin-left: 820px;
+  margin-right: 820px;
 }
 
 .offset9 {
-  margin-left: 740px;
+  margin-right: 740px;
 }
 
 .offset8 {
-  margin-left: 660px;
+  margin-right: 660px;
 }
 
 .offset7 {
-  margin-left: 580px;
+  margin-right: 580px;
 }
 
 .offset6 {
-  margin-left: 500px;
+  margin-right: 500px;
 }
 
 .offset5 {
-  margin-left: 420px;
+  margin-right: 420px;
 }
 
 .offset4 {
-  margin-left: 340px;
+  margin-right: 340px;
 }
 
 .offset3 {
-  margin-left: 260px;
+  margin-right: 260px;
 }
 
 .offset2 {
-  margin-left: 180px;
+  margin-right: 180px;
 }
 
 .offset1 {
-  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .row-fluid {
@@ -343,29 +343,22 @@ a:hover {
 
 .row-fluid [class*="span"] {
   display: block;
-  float: left;
+  float: right;
   width: 100%;
   min-height: 30px;
-<<<<<<< HEAD
-=======
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  float: right;
->>>>>>> a5ca4b176403da26f88839f23e06eb8f513dec6b
-  margin-left: 2.127659574468085%;
-  *margin-left: 2.074468085106383%;
+  margin-right: 2.127659574468085%;
+  *margin-right: 2.074468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 .row-fluid [class*="span"]:first-child {
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .row-fluid .controls-row [class*="span"] + [class*="span"] {
-  margin-left: 2.127659574468085%;
+  margin-right: 2.127659574468085%;
 }
 
 .row-fluid .span12 {
@@ -429,123 +422,123 @@ a:hover {
 }
 
 .row-fluid .offset12 {
-  margin-left: 104.25531914893617%;
-  *margin-left: 104.14893617021275%;
+  margin-right: 104.25531914893617%;
+  *margin-right: 104.14893617021275%;
 }
 
 .row-fluid .offset12:first-child {
-  margin-left: 102.12765957446808%;
-  *margin-left: 102.02127659574467%;
+  margin-right: 102.12765957446808%;
+  *margin-right: 102.02127659574467%;
 }
 
 .row-fluid .offset11 {
-  margin-left: 95.74468085106382%;
-  *margin-left: 95.6382978723404%;
+  margin-right: 95.74468085106382%;
+  *margin-right: 95.6382978723404%;
 }
 
 .row-fluid .offset11:first-child {
-  margin-left: 93.61702127659574%;
-  *margin-left: 93.51063829787232%;
+  margin-right: 93.61702127659574%;
+  *margin-right: 93.51063829787232%;
 }
 
 .row-fluid .offset10 {
-  margin-left: 87.23404255319149%;
-  *margin-left: 87.12765957446807%;
+  margin-right: 87.23404255319149%;
+  *margin-right: 87.12765957446807%;
 }
 
 .row-fluid .offset10:first-child {
-  margin-left: 85.1063829787234%;
-  *margin-left: 84.99999999999999%;
+  margin-right: 85.1063829787234%;
+  *margin-right: 84.99999999999999%;
 }
 
 .row-fluid .offset9 {
-  margin-left: 78.72340425531914%;
-  *margin-left: 78.61702127659572%;
+  margin-right: 78.72340425531914%;
+  *margin-right: 78.61702127659572%;
 }
 
 .row-fluid .offset9:first-child {
-  margin-left: 76.59574468085106%;
-  *margin-left: 76.48936170212764%;
+  margin-right: 76.59574468085106%;
+  *margin-right: 76.48936170212764%;
 }
 
 .row-fluid .offset8 {
-  margin-left: 70.2127659574468%;
-  *margin-left: 70.10638297872339%;
+  margin-right: 70.2127659574468%;
+  *margin-right: 70.10638297872339%;
 }
 
 .row-fluid .offset8:first-child {
-  margin-left: 68.08510638297872%;
-  *margin-left: 67.9787234042553%;
+  margin-right: 68.08510638297872%;
+  *margin-right: 67.9787234042553%;
 }
 
 .row-fluid .offset7 {
-  margin-left: 61.70212765957446%;
-  *margin-left: 61.59574468085106%;
+  margin-right: 61.70212765957446%;
+  *margin-right: 61.59574468085106%;
 }
 
 .row-fluid .offset7:first-child {
-  margin-left: 59.574468085106375%;
-  *margin-left: 59.46808510638297%;
+  margin-right: 59.574468085106375%;
+  *margin-right: 59.46808510638297%;
 }
 
 .row-fluid .offset6 {
-  margin-left: 53.191489361702125%;
-  *margin-left: 53.085106382978715%;
+  margin-right: 53.191489361702125%;
+  *margin-right: 53.085106382978715%;
 }
 
 .row-fluid .offset6:first-child {
-  margin-left: 51.063829787234035%;
-  *margin-left: 50.95744680851063%;
+  margin-right: 51.063829787234035%;
+  *margin-right: 50.95744680851063%;
 }
 
 .row-fluid .offset5 {
-  margin-left: 44.68085106382979%;
-  *margin-left: 44.57446808510638%;
+  margin-right: 44.68085106382979%;
+  *margin-right: 44.57446808510638%;
 }
 
 .row-fluid .offset5:first-child {
-  margin-left: 42.5531914893617%;
-  *margin-left: 42.4468085106383%;
+  margin-right: 42.5531914893617%;
+  *margin-right: 42.4468085106383%;
 }
 
 .row-fluid .offset4 {
-  margin-left: 36.170212765957444%;
-  *margin-left: 36.06382978723405%;
+  margin-right: 36.170212765957444%;
+  *margin-right: 36.06382978723405%;
 }
 
 .row-fluid .offset4:first-child {
-  margin-left: 34.04255319148936%;
-  *margin-left: 33.93617021276596%;
+  margin-right: 34.04255319148936%;
+  *margin-right: 33.93617021276596%;
 }
 
 .row-fluid .offset3 {
-  margin-left: 27.659574468085104%;
-  *margin-left: 27.5531914893617%;
+  margin-right: 27.659574468085104%;
+  *margin-right: 27.5531914893617%;
 }
 
 .row-fluid .offset3:first-child {
-  margin-left: 25.53191489361702%;
-  *margin-left: 25.425531914893618%;
+  margin-right: 25.53191489361702%;
+  *margin-right: 25.425531914893618%;
 }
 
 .row-fluid .offset2 {
-  margin-left: 19.148936170212764%;
-  *margin-left: 19.04255319148936%;
+  margin-right: 19.148936170212764%;
+  *margin-right: 19.04255319148936%;
 }
 
 .row-fluid .offset2:first-child {
-  margin-left: 17.02127659574468%;
-  *margin-left: 16.914893617021278%;
+  margin-right: 17.02127659574468%;
+  *margin-right: 16.914893617021278%;
 }
 
 .row-fluid .offset1 {
-  margin-left: 10.638297872340425%;
-  *margin-left: 10.53191489361702%;
+  margin-right: 10.638297872340425%;
+  *margin-right: 10.53191489361702%;
 }
 
 .row-fluid .offset1:first-child {
-  margin-left: 8.51063829787234%;
-  *margin-left: 8.404255319148938%;
+  margin-right: 8.51063829787234%;
+  *margin-right: 8.404255319148938%;
 }
 
 [class*="span"].hide,
@@ -553,9 +546,9 @@ a:hover {
   display: none;
 }
 
-[class*="span"].pull-right,
-.row-fluid [class*="span"].pull-right {
-  float: right;
+[class*="span"].pull-left,
+.row-fluid [class*="span"].pull-left {
+  float: left;
 }
 
 .container {
@@ -1240,11 +1233,11 @@ textarea[class*="span"],
 input,
 textarea,
 .uneditable-input {
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .controls-row [class*="span"] + [class*="span"] {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 input.span12,
@@ -1660,17 +1653,17 @@ select:focus:required:invalid:focus {
 .input-append input,
 .input-append select,
 .input-append .uneditable-input {
-  -webkit-border-radius: 4px 0 0 4px;
-     -moz-border-radius: 4px 0 0 4px;
-          border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 0 4px 4px 0;
+     -moz-border-radius: 0 4px 4px 0;
+          border-radius: 0 4px 4px 0;
 }
 
 .input-append input + .btn-group .btn,
 .input-append select + .btn-group .btn,
 .input-append .uneditable-input + .btn-group .btn {
-  -webkit-border-radius: 0 4px 4px 0;
-     -moz-border-radius: 0 4px 4px 0;
-          border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
 }
 
 .input-append .add-on,
@@ -1681,9 +1674,9 @@ select:focus:required:invalid:focus {
 
 .input-append .add-on:last-child,
 .input-append .btn:last-child {
-  -webkit-border-radius: 0 4px 4px 0;
-     -moz-border-radius: 0 4px 4px 0;
-          border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
 }
 
 .input-prepend.input-append input,
@@ -2039,84 +2032,84 @@ table th[class*="span"],
 .table th.span1 {
   float: none;
   width: 44px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span2,
 .table th.span2 {
   float: none;
   width: 124px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span3,
 .table th.span3 {
   float: none;
   width: 204px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span4,
 .table th.span4 {
   float: none;
   width: 284px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span5,
 .table th.span5 {
   float: none;
   width: 364px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span6,
 .table th.span6 {
   float: none;
   width: 444px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span7,
 .table th.span7 {
   float: none;
   width: 524px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span8,
 .table th.span8 {
   float: none;
   width: 604px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span9,
 .table th.span9 {
   float: none;
   width: 684px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span10,
 .table th.span10 {
   float: none;
   width: 764px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span11,
 .table th.span11 {
   float: none;
   width: 844px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table td.span12,
 .table th.span12 {
   float: none;
   width: 924px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .table tbody tr.success td {
@@ -2157,7 +2150,7 @@ table th[class*="span"],
   width: 14px;
   height: 14px;
   margin-top: 1px;
-  *margin-right: .3em;
+  *margin-left: .3em;
   line-height: 14px;
   vertical-align: text-top;
   background-image: url("../img/glyphicons-halflings.png");
@@ -3056,8 +3049,8 @@ button.close {
   display: inline-block;
   *display: inline;
   padding: 4px 12px;
+  *margin-right: .3em;
   margin-bottom: 0;
-  *margin-left: .3em;
   font-size: 13px;
   line-height: 20px;
   *line-height: 20px;
@@ -3106,7 +3099,7 @@ button.close {
 }
 
 .btn:first-child {
-  *margin-left: 0;
+  *margin-right: 0;
 }
 
 .btn:hover {
@@ -3476,7 +3469,7 @@ input[type="submit"].btn.btn-mini {
   position: relative;
   display: inline-block;
   *display: inline;
-  *margin-left: .3em;
+  *margin-right: .3em;
   font-size: 0;
   white-space: nowrap;
   vertical-align: middle;
@@ -3484,11 +3477,11 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group:first-child {
-  *margin-left: 0;
+  *margin-right: 0;
 }
 
 .btn-group + .btn-group {
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .btn-toolbar {
@@ -3500,7 +3493,7 @@ input[type="submit"].btn.btn-mini {
 .btn-toolbar .btn + .btn,
 .btn-toolbar .btn-group + .btn,
 .btn-toolbar .btn + .btn-group {
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .btn-group > .btn {
@@ -3511,7 +3504,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group > .btn + .btn {
-  margin-left: -1px;
+  margin-right: -1px;
 }
 
 .btn-group > .btn,
@@ -3532,23 +3525,23 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group > .btn:first-child {
-  margin-left: 0;
-  -webkit-border-bottom-left-radius: 4px;
-          border-bottom-left-radius: 4px;
-  -webkit-border-top-left-radius: 4px;
-          border-top-left-radius: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  -moz-border-radius-topleft: 4px;
-}
-
-.btn-group > .btn:last-child,
-.btn-group > .dropdown-toggle {
+  margin-right: 0;
   -webkit-border-top-right-radius: 4px;
           border-top-right-radius: 4px;
   -webkit-border-bottom-right-radius: 4px;
           border-bottom-right-radius: 4px;
   -moz-border-radius-topright: 4px;
   -moz-border-radius-bottomright: 4px;
+}
+
+.btn-group > .btn:last-child,
+.btn-group > .dropdown-toggle {
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-topleft: 4px;
 }
 
 .btn-group > .btn.large:first-child {
@@ -3649,7 +3642,7 @@ input[type="submit"].btn.btn-mini {
 
 .btn .caret {
   margin-top: 8px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .btn-mini .caret,
@@ -3697,7 +3690,7 @@ input[type="submit"].btn.btn-mini {
 
 .btn-group-vertical .btn + .btn {
   margin-top: -1px;
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .btn-group-vertical .btn:first-child {
@@ -5385,15 +5378,15 @@ a.thumbnail:hover {
 }
 
 .media .pull-left {
-  margin-right: 10px;
-}
-
-.media .pull-right {
   margin-left: 10px;
 }
 
+.media .pull-right {
+  margin-right: 10px;
+}
+
 .media-list {
-  margin-left: 0;
+  margin-right: 0;
   list-style: none;
 }
 
@@ -5595,10 +5588,10 @@ a.badge:hover {
 .progress-striped .bar {
   background-color: #149bdf;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   -webkit-background-size: 40px 40px;
      -moz-background-size: 40px 40px;
        -o-background-size: 40px 40px;
@@ -5629,10 +5622,10 @@ a.badge:hover {
 .progress-striped .bar-danger {
   background-color: #ee5f5b;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 .progress-success .bar,
@@ -5651,10 +5644,10 @@ a.badge:hover {
 .progress-striped .bar-success {
   background-color: #62c462;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 .progress-info .bar,
@@ -5673,10 +5666,10 @@ a.badge:hover {
 .progress-striped .bar-info {
   background-color: #5bc0de;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 .progress-warning .bar,
@@ -5695,10 +5688,10 @@ a.badge:hover {
 .progress-striped .bar-warning {
   background-color: #fbb450;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 .accordion {

@@ -38,8 +38,8 @@
 // ----------------------------------
 .center-block() {
   display: block;
+  margin-right:  auto;
   margin-left: auto;
-  margin-right: auto;
 }
 
 // IE7 inline-block
@@ -56,15 +56,15 @@
 // mean that space between those elements will be .6em (~2 space characters) in IE7,
 // instead of the 1 space in other browsers.
 .ie7-restore-left-whitespace() {
-  *margin-left: .3em;
+  *margin-right:  .3em;
 
   &:first-child {
-    *margin-left: 0;
+    *margin-right:  0;
   }
 }
 
 .ie7-restore-right-whitespace() {
-  *margin-right: .3em;
+  *margin-left: .3em;
 }
 
 // Sizing shortcuts
@@ -311,9 +311,9 @@
 // Default value is `visible`, but can be changed to `hidden
 // See git pull https://github.com/dannykeane/bootstrap.git backface-visibility for examples
 .backface-visibility(@visibility){
-	-webkit-backface-visibility: @visibility;
-	   -moz-backface-visibility: @visibility;
-	        backface-visibility: @visibility;
+  -webkit-backface-visibility: @visibility;
+     -moz-backface-visibility: @visibility;
+          backface-visibility: @visibility;
 }
 
 // Background clipping
@@ -455,7 +455,7 @@
     background-image: -o-radial-gradient(circle, @innerColor, @outerColor);
     background-repeat: no-repeat;
   }
-  .striped(@color: #555, @angle: -45deg) {
+  .striped(@color: #555, @angle: 45deg) {
     background-color: @color;
     background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255,255,255,.15)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255,255,255,.15)), color-stop(.75, rgba(255,255,255,.15)), color-stop(.75, transparent), to(transparent));
     background-image: -webkit-linear-gradient(@angle, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
@@ -528,8 +528,8 @@
 
 // Centered container element
 .container-fixed() {
-  margin-right: auto;
   margin-left: auto;
+  margin-right:  auto;
   .clearfix();
 }
 
@@ -537,18 +537,18 @@
 .tableColumns(@columnSpan: 1) {
   float: none; // undo default grid column styles
   width: ((@gridColumnWidth) * @columnSpan) + (@gridGutterWidth * (@columnSpan - 1)) - 16; // 16 is total padding on left and right of table cells
-  margin-left: 0; // undo default grid column styles
+  margin-right:  0; // undo default grid column styles
 }
 
 // Make a Grid
 // Use .makeRow and .makeColumn to assign semantic layouts grid system behavior
 .makeRow() {
-  margin-left: @gridGutterWidth * -1;
+  margin-right:  @gridGutterWidth * -1;
   .clearfix();
 }
 .makeColumn(@columns: 1, @offset: 0) {
   float: right;
-  margin-left: (@gridColumnWidth * @offset) + (@gridGutterWidth * (@offset - 1)) + (@gridGutterWidth * 2);
+  margin-right:  (@gridColumnWidth * @offset) + (@gridGutterWidth * (@offset - 1)) + (@gridGutterWidth * 2);
   width: (@gridColumnWidth * @columns) + (@gridGutterWidth * (@columns - 1));
 }
 
@@ -570,7 +570,7 @@
     .offsetX (0) {}
 
     .offset (@columns) {
-      margin-left: (@gridColumnWidth * @columns) + (@gridGutterWidth * (@columns + 1));
+      margin-right:  (@gridColumnWidth * @columns) + (@gridGutterWidth * (@columns + 1));
     }
 
     .span (@columns) {
@@ -578,14 +578,14 @@
     }
 
     .row {
-      margin-left: @gridGutterWidth * -1;
+      margin-right:  @gridGutterWidth * -1;
       .clearfix();
     }
 
     [class*="span"] {
       float: right;
       min-height: 1px; // prevent collapsing columns
-      margin-left: @gridGutterWidth;
+      margin-right:  @gridGutterWidth;
     }
 
     // Set the container width, and override it for fixed navbars in media queries
@@ -616,13 +616,13 @@
     .offsetX (0) {}
 
     .offset (@columns) {
-      margin-left: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) + (@fluidGridGutterWidth*2);
-  	  *margin-left: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) - (.5 / @gridRowWidth * 100 * 1%) + (@fluidGridGutterWidth*2) - (.5 / @gridRowWidth * 100 * 1%);
+      margin-right:  (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) + (@fluidGridGutterWidth*2);
+      *margin-right:  (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) - (.5 / @gridRowWidth * 100 * 1%) + (@fluidGridGutterWidth*2) - (.5 / @gridRowWidth * 100 * 1%);
     }
 
     .offsetFirstChild (@columns) {
-      margin-left: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) + (@fluidGridGutterWidth);
-      *margin-left: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) - (.5 / @gridRowWidth * 100 * 1%) + @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);
+      margin-right:  (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) + (@fluidGridGutterWidth);
+      *margin-right:  (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) - (.5 / @gridRowWidth * 100 * 1%) + @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);
     }
 
     .span (@columns) {
@@ -636,16 +636,16 @@
       [class*="span"] {
         .input-block-level();
         float: right;
-        margin-left: @fluidGridGutterWidth;
-        *margin-left: @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);
+        margin-right:  @fluidGridGutterWidth;
+        *margin-right:  @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);
       }
       [class*="span"]:first-child {
-        margin-left: 0;
+        margin-right:  0;
       }
 
       // Space grid-sized controls properly if multiple per line
       .controls-row [class*="span"] + [class*="span"] {
-        margin-left: @fluidGridGutterWidth;
+        margin-right:  @fluidGridGutterWidth;
       }
 
       // generate .spanX and .offsetX
@@ -670,12 +670,12 @@
     input,
     textarea,
     .uneditable-input {
-      margin-left: 0; // override margin-left from core grid system
+      margin-right:  0; // override margin-left from core grid system
     }
 
     // Space grid-sized controls properly if multiple per line
     .controls-row [class*="span"] + [class*="span"] {
-      margin-left: @gridGutterWidth;
+      margin-right:  @gridGutterWidth;
     }
 
     // generate .spanX
