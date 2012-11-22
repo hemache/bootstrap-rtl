@@ -71,7 +71,7 @@
 .modal-footer {
   padding: 14px 15px 15px;
   margin-bottom: 0;
-  text-align: right; // right align buttons
+  text-align: left; // left align buttons
   background-color: #f5f5f5;
   border-top: 1px solid #ddd;
   .border-radius(0 0 6px 6px);
@@ -80,15 +80,15 @@
 
   // Properly space out buttons
   .btn + .btn {
-    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 0; // account for input[type="submit"] which gets the bottom margin like all other inputs
   }
   // but override that for button groups
   .btn-group .btn + .btn {
-    margin-left: -1px;
+    margin-right: -1px;
   }
   // and override it for block buttons as well
   .btn-block + .btn-block {
-    margin-left: 0;
+    margin-right: 0;
   }
 }

@@ -96,7 +96,7 @@
           <p>{{_i}}Add an extra level of dropdown menus, appearing on hover like those of OS X, with some simple markup additions. Add <code>.dropdown-submenu</code> to any <code>li</code> in an existing dropdown menu for automatic styling.{{/i}}</p>
           <div class="bs-docs-example" style="min-height: 180px;">
 
-            <div class="pull-left">
+            <div class="pull-right">
               <p class="muted">Default</p>
               <div class="dropdown clearfix">
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 180px;">
@@ -116,9 +116,9 @@
                   </li>
                 </ul>
               </div>
-            </div>{{! /.pull-left }}
+            </div>{{! /.pull-right }}
 
-            <div class="pull-left" style="margin-left: 20px;">
+            <div class="pull-right" style="margin-right: 20px;">
               <p class="muted">Dropup</p>
               <div class="dropup">
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 180px;">
@@ -138,9 +138,9 @@
                   </li>
                 </ul>
               </div>
-            </div>{{! /.pull-left }}
+            </div>{{! /pull-right.pull-left }}
 
-            <div class="pull-left" style="margin-left: 20px;">
+            <div class="pull-right" style="margin-right: 20px;">
               <p class="muted">Left submenu</p>
               <div class="dropdown">
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 180px;">
@@ -160,7 +160,7 @@
                   </li>
                 </ul>
               </div>
-            </div>{{! /.pull-left }}
+            </div>{{! /pull-right }}
 
           </div>{{! /example }}
 <pre class="prettyprint linenums">
@@ -2239,7 +2239,7 @@
           <p>{{_i}}The default media allow to float a media object (images, video, audio) to the left or right of a content block.{{/i}}</p>
           <div class="bs-docs-example">
             <div class="media">
-              <a class="pull-left" href="#">
+              <a class="pull-right" href="#">
                 <img class="media-object" src="http://placehold.it/64x64">
               </a>
               <div class="media-body">
@@ -2248,14 +2248,14 @@
               </div>
             </div>
             <div class="media">
-              <a class="pull-left" href="#">
+              <a class="pull-right" href="#">
                 <img class="media-object" src="http://placehold.it/64x64">
               </a>
               <div class="media-body">
                 <h4 class="media-heading">{{_i}}Media heading{{/i}}</h4>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                 <div class="media">
-                  <a class="pull-left" href="#">
+                  <a class="pull-right" href="#">
                     <img class="media-object" src="http://placehold.it/64x64">
                   </a>
                   <div class="media-body">
@@ -2268,7 +2268,7 @@
           </div>{{! /.bs-docs-example }}
 <pre class="prettyprint linenums">
 &lt;div class="media"&gt;
-  &lt;a class="pull-left" href="#"&gt;
+  &lt;a class="pull-right" href="#"&gt;
     &lt;img class="media-object" src="http://placehold.it/64x64"&gt;
   &lt;/a&gt;
   &lt;div class="media-body"&gt;
@@ -2292,7 +2292,7 @@
           <div class="bs-docs-example">
             <ul class="media-list">
               <li class="media">
-                <a class="pull-left" href="#">
+                <a class="pull-right" href="#">
                   <img class="media-object" src="http://placehold.it/64x64">
                 </a>
                 <div class="media-body">
@@ -2300,7 +2300,7 @@
                   <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
                   <!-- Nested media object -->
                   <div class="media">
-                    <a class="pull-left" href="#">
+                    <a class="pull-right" href="#">
                       <img class="media-object" src="http://placehold.it/64x64">
                     </a>
                     <div class="media-body">
@@ -2308,7 +2308,7 @@
                       Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
                       <!-- Nested media object -->
                       <div class="media">
-                        <a class="pull-left" href="#">
+                        <a class="pull-right" href="#">
                           <img class="media-object" src="http://placehold.it/64x64">
                         </a>
                         <div class="media-body">
@@ -2320,7 +2320,7 @@
                   </div>
                   <!-- Nested media object -->
                   <div class="media">
-                    <a class="pull-left" href="#">
+                    <a class="pull-right" href="#">
                       <img class="media-object" src="http://placehold.it/64x64">
                     </a>
                     <div class="media-body">
@@ -2344,7 +2344,7 @@
 <pre class="prettyprint linenums">
 &lt;ul class="media-list"&gt;
   &lt;li class="media"&gt;
-    &lt;a class="pull-left" href="#"&gt;
+    &lt;a class="pull-right" href="#"&gt;
       &lt;img class="media-object" src="http://placehold.it/64x64"&gt;
     &lt;/a&gt;
     &lt;div class="media-body"&gt;

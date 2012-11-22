@@ -1916,8 +1916,7 @@
     $this.typeahead($this.data())
   })
 
-}(window.jQuery);
-/* ==========================================================
+}(window.jQuery);/* ==========================================================
  * bootstrap-affix.js v2.2.1
  * http://twitter.github.com/bootstrap/javascript.html#affix
  * ==========================================================
