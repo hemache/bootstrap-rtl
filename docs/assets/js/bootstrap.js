@@ -1668,10 +1668,11 @@
       var pos = $.extend({}, this.$element.offset(), {
         height: this.$element[0].offsetHeight
       })
-
+      console.log(pos);
+      console.log($(this.$element[0]).outerWidth());
       this.$menu.css({
         top: pos.top + pos.height
-      , left: pos.left
+      , right: $(document).width() - pos.left - $(this.$element[0]).outerWidth()
       })
 
       this.$menu.show()
