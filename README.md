@@ -1,4 +1,4 @@
-[Twitter Bootstrap](http://twitter.github.com/bootstrap) [![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)](http://travis-ci.org/twitter/bootstrap)
+[Twitter Bootstrap](http://adilhemache.github.com/bootstrap-rtl) [![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)](http://travis-ci.org/twitter/bootstrap)
 =================
 
 Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat).
@@ -10,7 +10,7 @@ To get started, checkout http://getbootstrap.com!
 Quick start
 -----------
 
-Clone the repo, `git clone git://github.com/twitter/bootstrap.git`, [download the latest release](https://github.com/twitter/bootstrap/zipball/master), or install with twitter's [Bower](http://twitter.github.com/bower): `bower install bootstrap`.
+Clone the repo, `git clone git://github.com/AdilHemache/bootstrap-rtl.git`, [download the latest release](https://github.com/AdilHemache/bootstrap-rtl/zipball/master), or install with twitter's [Bower](http://twitter.github.com/bower): `bower install bootstrap`.
 
 
 
@@ -38,7 +38,7 @@ Bug tracker
 
 Have a bug? Please create an issue here on GitHub that conforms with [necolas's guidelines](https://github.com/necolas/issue-guidelines).
 
-https://github.com/twitter/bootstrap/issues
+https://github.com/AdilHemache/bootstrap-rtl/issues
 
 
 
@@ -119,7 +119,13 @@ Authors
 + http://twitter.com/fat
 + http://github.com/fat
 
+**Omar Berrayti**
++ http://twitter.com/OmarBerrayti
++ http://github.com/OmarBerrayti
 
+**Adil Hemache**
++ http://twitter.com/HemacheAdil
++ http://github.com/AdilHemache
 
 Copyright and license
 ---------------------
